@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTabBarCutoff.MainPage"
+             Shell.NavBarIsVisible="False">
+
+  <Grid
+    VerticalOptions="Fill"
+    HorizontalOptions="Fill">
+
+    <Label
+      Text="The bottom of the page is cut off as you can see with the button at the bottom, if you rotate into landscape and then back into portrait"
+      VerticalOptions="Center"
+      HorizontalOptions="Center"/>
+
+    <Button 
+      Text="I'm cut off"
+      VerticalOptions="End"
+      HorizontalOptions="Center"/>
+
+  </Grid>
+
+</ContentPage>
